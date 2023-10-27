@@ -10,3 +10,8 @@ app.use(express.static("views"))
 app.get("/", (req,res)=>{
     res.render("index.ejs");
 })
+
+
+app.listen(4000 , () => {
+    console.log("Biggest Dripper")
+})
